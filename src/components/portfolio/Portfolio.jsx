@@ -14,9 +14,9 @@ const portfolioData = [
   {
     id: 1,
     image: g2,
-    title: "Take out mobile app",
+    title: "Take out mobile app, open it with mobile mode or mobile size browser",
     website: "https://github.com/jiaxukang/Take-out-app-optimal",
-    demo: "http://codekang.live/takeout/index.html",
+    demo: "http://takeout.codekang.live/takeout/index.html",
     jug: true
   },
   {
@@ -39,7 +39,7 @@ const portfolioData = [
     image: g4,
     title: "Tripal Andriod App",
     website: "",
-    demo: "https://github.com",
+    demo: "https://www.youtube.com/watch?v=lRNR12sU9JU",
   },
   {
     id: 5,
@@ -52,9 +52,9 @@ const portfolioData = [
   {
     id: 3,
     image: g3,
-    title: "This is a portfolio item title",
+    title: "Library Management System",
     website: "https://github.com",
-    demo: "https://github.com",
+    demo: "https://www.youtube.com/watch?v=UEuPcORPjZM",
   },
   {
     id: 7,
