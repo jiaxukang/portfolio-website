@@ -30,7 +30,7 @@ const portfolioData = [
     image: g6,
     title: "Defence Tower Game",
     website: "https://github.com/jiaxukang/DefenceTower",
-    demo: "https://github.com",
+    demo: "https://www.youtube.com/watch?v=OLFFdOKLEz0",
     jug: true
   },
   {
