@@ -8,13 +8,12 @@ import g5 from "../../assets/g5.jpg";
 import g6 from "../../assets/g6.jpg";
 import g7 from "../../assets/g7.jpg";
 import g8 from "../../assets/g8.jpg";
-import v1 from "../../assets/video1.mp4";
 
 const portfolioData = [
   {
     id: 1,
     image: g2,
-    title: "Take out mobile app, open it with mobile mode or mobile size browser",
+    title: "Take out mobile app (Mobile size)",
     website: "https://github.com/jiaxukang/Take-out-app-optimal",
     demo: "http://takeout.codekang.live/takeout/index.html",
     jug: true
@@ -22,7 +21,7 @@ const portfolioData = [
   {
     id: 2,
     image: g1,
-    title: "Soon Metaverse officework website",
+    title: "Soon Metaverse website",
     website: "",
     demo: "https://soonmetaverse.com/",
   },
@@ -63,7 +62,7 @@ const portfolioData = [
     website: "https://github.com/jiaxukang/P2PFileTransfer",
     demo: "https://github.com",
     jug: true,
-    demo: false,
+    demos: true,
   },
   {
     id: 8,
@@ -72,7 +71,7 @@ const portfolioData = [
     website: "https://github.com/jiaxukang/WhiteBoard",
     demo: "https://github.com",
     jug:true,
-    demo: false,
+    demos: true,
   },
 ];
 const Portfolio = () => {
@@ -82,7 +81,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {portfolioData.map(({ id, image, title, website, demo,jug }) => {
+        {portfolioData.map(({ id, image, title, website, demo,jug, demos}) => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
@@ -96,7 +95,7 @@ const Portfolio = () => {
                 </a>: ""
                 }
                 {
-                  demo?<a
+                  !demos?<a
                   href={demo}
                   className="btn btn-primary"
                   target="_blank"
