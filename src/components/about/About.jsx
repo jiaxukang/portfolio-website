@@ -23,7 +23,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>experience</h5>
-              <small>1+ Years Working</small>
+              <small>2+ Years Working</small>
             </article>
             <article className="about__card">
               <TbCertificate className="about__icon" />
@@ -33,7 +33,7 @@ const About = () => {
             <article className="about__card">
               <CiPassport1 className="about__icon" />
               <h5>485 VISA</h5>
-              <small>expires in 2026</small>
+              <small>expires in 2028</small>
             </article>
           </div>
           <p>

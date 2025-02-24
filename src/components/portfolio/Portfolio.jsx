@@ -8,15 +8,31 @@ import g5 from "../../assets/g5.jpg";
 import g6 from "../../assets/g6.jpg";
 import g7 from "../../assets/g7.jpg";
 import g8 from "../../assets/g8.jpg";
+import g10 from "../../assets/g10.png";
+import g11 from "../../assets/g11.png";
 
 const portfolioData = [
+  {
+    id: 9,
+    image: g10,
+    title: "Jade.io",
+    website: "https://jade.io",
+    demo: "https://jade.io",
+  },
+  {
+    id: 10,
+    image: g11,
+    title: "NDFV Benchbook",
+    website: "https://dfvbenchbook.aija.org.au/",
+    demo: "https://dfvbenchbook.aija.org.au/",
+  },
   {
     id: 1,
     image: g2,
     title: "Take out mobile app (Mobile size)",
     website: "https://github.com/jiaxukang/Take-out-app-optimal",
     demo: "http://takeout.codekang.live/takeout/index.html",
-    jug: true
+    jug: true,
   },
   {
     id: 2,
@@ -31,7 +47,7 @@ const portfolioData = [
     title: "Defence Tower Game",
     website: "https://github.com/jiaxukang/DefenceTower",
     demo: "https://www.youtube.com/watch?v=OLFFdOKLEz0",
-    jug: true
+    jug: true,
   },
   {
     id: 4,
@@ -46,7 +62,7 @@ const portfolioData = [
     title: "Linked Game",
     website: "https://github.com/jiaxukang/LinkedGame",
     demo: "https://jiaxukang.github.io/LinkedGame/play.html",
-    jug: true
+    jug: true,
   },
   {
     id: 3,
@@ -70,7 +86,7 @@ const portfolioData = [
     title: "White Board Application",
     website: "https://github.com/jiaxukang/WhiteBoard",
     demo: "https://github.com",
-    jug:true,
+    jug: true,
     demos: true,
   },
 ];
