@@ -15,27 +15,31 @@ const Service = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Expertise in designing, developing, and deploying scalable, highly available, and secure applications on the web technology stack.</p>
+              <p>Full-stack development with Java, C#, Python, Angular, React, Next.js and Vue.js.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Develop both the back-end and front-end components of web applications.</p>
+              <p>Backend API development with REST APIs, Spring Boot, .NET Core, and FastAPI.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Design and optimize database structures, ensuring data integrity and implementing security protocols.</p>
+              <p>Database design and optimization with PostgreSQL, MSSQL, MySQL, and Redis.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Analyze performance bottlenecks, optimize code, and improve overall application performance.</p>
+              <p>Cloud deployment and DevOps with AWS, Azure, Docker, and Kubernetes.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Set up efficient development and deployment workflows.</p>
+              <p>System integration with third-party APIs (Stripe, Xero, payment gateways).</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Ensure smooth integration and deployment of applications.</p>
+              <p>Legacy system modernization and performance optimization.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>CI/CD pipeline setup with automated testing and deployment workflows.</p>
             </li>
           </ul>
         </article>
@@ -46,31 +50,31 @@ const Service = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Strong analytical skills and attention to detail, enabling me to identify and troubleshoot complex technical issues.</p>
+              <p>Stakeholder engagement and effective communication with technical and non-technical teams.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Proven ability to work independently and take ownership of projects, while also contributing to team success.</p>
+              <p>Strong problem-solving abilities with attention to detail for complex technical issues.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Dedication to staying up-to-date with the latest technologies and best practices and continuously seeking opportunities for learning and growth.</p>
+              <p>Proven ability to work independently and collaboratively within Agile/Scrum teams.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Creative problem-solving abilities, enabling me to develop innovative solutions to challenging problems.</p>
+              <p>Quick learner with ability to adapt to new technologies and frameworks rapidly.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Strong organisational and time-management skills, enabling me to effectively prioritise tasks and meet project deadlines.</p>
+              <p>Strong organizational and time-management skills to meet project deadlines effectively.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Proactive mindset and a passion for delivering high-quality work that exceeds expectations.</p>
+              <p>Resilient and adaptable, thriving in fast-paced and dynamic work environments.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Adaptability and resilience, enabling me to thrive in fast-paced and dynamic environments.</p>
+              <p>Recognized for delivering high-quality work and exceeding performance expectations.</p>
             </li>
           </ul>
         </article>

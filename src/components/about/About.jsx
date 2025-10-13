@@ -1,4 +1,3 @@
-import React from "react";
 import "./about.css";
 import ME from "../../assets/me-about.jpg";
 import { FaAward } from "react-icons/fa";
@@ -14,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <img src={ME} alt="Felix Ken" />
           </div>
         </div>
 
@@ -23,29 +22,46 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>experience</h5>
-              <small>2+ Years Working</small>
+              <small>3+ Years Working Experience</small>
             </article>
             <article className="about__card">
               <TbCertificate className="about__icon" />
               <h5>Certification</h5>
-              <small>N/A</small>
+              <small>
+                E-Commerce with .Net Core & Angular | Udemy<br></br>
+              </small>
+              <small>Next.js 15 & React | Udemy</small>
+            </article>
+            <article className="about__card">
+              <TbCertificate className="about__icon" />
+              <h5>Education</h5>
+              <small>
+                Bachelor of Computer Science | University of Arizona
+                <br></br>
+              </small>
+              <small>
+                Master of Information Technology | UniMelb
+                <br></br>
+              </small>
             </article>
             <article className="about__card">
               <CiPassport1 className="about__icon" />
               <h5>485 VISA</h5>
-              <small>expires in 2028</small>
+              <small>expires in July 2028</small>
             </article>
           </div>
           <p>
-            Accomplished IT developer who holds Master of Information Technology in The University of Melbourne and Bachelor of Computer Science in University of Arizona in designing, developing, and deploying
-            scalable, highly available, and secure applications on the web
-            technology stack with expertise in programming using Java and
-            Python. Skilled in writing high-quality, efficient code using
-            object-oriented methods, SQL, and data processing. A fast learner
-            who excels in dynamic work environments and highly motivated to
-            leverage skills to drive success in the next role. Proficient in
-            implementing new optimisation techniques and utilising the latest
-            frameworks to improve web speed and user engagement.
+            Highly motivated Full-Stack Software Engineer with 3+ years'
+            experience delivering scalable applications, specialising in backend
+            development, REST APIs and system integration. Skilled at
+            modernising legacy platforms and building solutions that improve
+            data accuracy, reduce processing times and automate workflows.
+            Strong foundation in object-oriented programming, SQL, data
+            processing and recognised for adaptability, strong troubleshooting
+            and problem-solving skills and the ability to quickly learn new
+            technologies. Currently seeking full-stack developer roles to apply
+            expertise in <strong>Java, C#, Python, Next.js</strong> and further
+            develop technical skills.
           </p>
 
           <a href="#contact" className="btn btn-primary">
