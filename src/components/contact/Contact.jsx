@@ -38,7 +38,7 @@ const Contact = () => {
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>kangjiaxu0605@gmail.com</h5>
-            <a href="mailto:kangjiaxu0605@gmail.com" target="_blank">
+            <a href="mailto:kangjiaxu0605@gmail.com" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -46,9 +46,9 @@ const Contact = () => {
             <TbBrandWechat className="contact__option-icon" />
             <h4>Wechat</h4>
             <h5>5445101</h5>
-            <a href="" target="_blank">
-              Send a message
-            </a>
+            <span className="contact__option-cta">
+              Add me on WeChat
+            </span>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
