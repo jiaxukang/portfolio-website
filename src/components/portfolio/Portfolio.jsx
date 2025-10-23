@@ -15,7 +15,6 @@ import g10 from "../../assets/g10.png";
 import g11 from "../../assets/g11.png";
 import g12 from "../../assets/g12.png";
 import g13 from "../../assets/g13.png";
-import g14 from "../../assets/g14.png";
 import g15 from "../../assets/g15.png";
 import g16 from "../../assets/g16.png";
 const portfolioData = [
