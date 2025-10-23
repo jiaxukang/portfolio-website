@@ -17,6 +17,7 @@ import g12 from "../../assets/g12.png";
 import g13 from "../../assets/g13.png";
 import g14 from "../../assets/g14.png";
 import g15 from "../../assets/g15.png";
+import g16 from "../../assets/g16.png";
 const portfolioData = [
   {
     id: 9,
@@ -69,12 +70,11 @@ const portfolioData = [
   },
   {
     id: 14,
-    image: g14,
+    image: g16,
     title: "Skinet - E-commerce Platform",
-    website: "https://github.com/jiaxukang/ECommerceWebsite",
-    demo: "https://github.com/jiaxukang",
     jug: true,
-    demos: true,
+    website: "https://github.com/jiaxukang/ECommerceWebsite",
+    demo: "https://skinet-felix.azurewebsites.net/",
     description:
       "C# ASP.NET Core, Angular, MSSQL, Redis. Clean Architecture with 60% faster page loads.",
   },
